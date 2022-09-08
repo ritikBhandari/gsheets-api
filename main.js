@@ -7,13 +7,13 @@ const {google} = require('googleapis');
 
 const port = process.env.port || 8000;
 
-const CLIENT_ID = "58333367547-9155bikmfeks4bmsrrkr21o59i5e939t.apps.googleusercontent.com"
-const CLIENT_SECRET = "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"
+const CLIENT_ID = ""
+const CLIENT_SECRET = ""
 const REDIRECT_URI = `http://localhost:${port}/`
 
 
 let userCredential;
-var bearer = 'ya29.a0AVA9y1tyS5qm0CBQHjHv1ZK3LJ4Pg9CC30azTQyGlBukg9nbxz_mMmpsA86hppLyUTyxVp5LfOQmMFjGDyoQ3v7C82cS7Yi-KtMDJIKPltCHqE30b0k6FODyxVP81mMh4MHZuFRdAZvGuADg7aA830CqLJLRaCgYKATASAQASFQE65dr8Z-v4WSP7ZyrPkpEwGRJTAQ0163';
+var bearer = '';
 
 const oauth2Client = new google.auth.OAuth2(
     CLIENT_ID,
